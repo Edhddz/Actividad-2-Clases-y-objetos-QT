@@ -18,6 +18,10 @@ int main(int argc, char *argv[])
     int green = 25;
     int blue = 25;
 
+
     admiNeurona.agregarInicio(id, voltaje, posX, posY, red, green, blue);
+    admiNeurona.agregarFinal(id, voltaje, posX, posY, red, green, blue);
     admiNeurona.mostrar();
+
+    return EXIT_SUCCESS;
 }
